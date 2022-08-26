@@ -1,0 +1,98 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+
+
+
+header *{
+ display: flex;
+ justify-content: space-between;
+ color: black;
+ display:block;
+ text-decoration: none;
+ 
+}
+
+nav ul{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+nav form input{
+    width:100%;
+}
+#berries {
+   background:url("https://cdn.glitch.global/959c5e4b-3d49-40ad-bbca-89032daa8ff6/first_bg.jpeg?v=1661474216507") no-repeat;
+   background-size:cover;
+   width: 100%;
+   height: 600px;
+   /*border: 1px solid red;
+   -webkit-transform: rotate(720deg);
+   -moz-transform: rotate(720deg);
+   -o-transform: rotate(720deg);
+   -ms-transform: rotate(720deg);
+   transform: rotate(720deg);
+   -moz-transform: scale(-1, -1);
+   -o-transform: scale(-1,-1);
+   -webkit-transform: scale(-1,-1);
+   transform: scale(-1,-1);*/
+}
+
+.menuImg {
+   width: 300px
+      
+}
+
+
+
+.customerImg{
+   width:150px;
+   height:150px; 
+   border-radius: 50%;
+}
+/*#berries {
+    background:url("../Images/first_bg.jpeg") no-repeat;
+    background-size:cover;
+    width: 1450px;
+    height: 600px;
+    /*border: 1px solid red;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1,-1);
+    -webkit-transform: scale(-1,-1);
+    transform: scale(-1,-1);*/
+/*}
+
+.menuImg {
+    width: 300px
+       
+}
+
+
+
+.customerImg{
+    width:150px;
+    height:150px; 
+    border-radius: 50%;
+}/*
