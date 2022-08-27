@@ -4,48 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cusine</title>
+    <title>Cuisine</title>
+    
+    <script src="https://kit.fontawesome.com/3fd2f67f7a.js" crossorigin="anonymous"></script>
+    
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
     <section id="berries">
-    <nav>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Order Now</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Location</a></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            
+
+                    <!--  <form action=""><input type="text">Search</form><!--there is a locationsquare at the end how do you do this-->
+                </ul>
+            </nav>
+        </header>
+
+        <section id="welcome">
+            <h1>Welcome<br> To Our Cuisine Restaurant</h1>
+        
+            <section id="search-location">
+                <form action="">
+                    <div style="max-width:400px;margin:auto"> 
+                    <div class="input-icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search"  placeholder="Search Here" class="search-field"></form> 
+                <button id="location">Location <i class="fa fa-caret-down"></i></button> 
+            </section>
     
-
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Order Now</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Location</a></li>
-            <li><a href="">Shopping Cart</li><!-- todo shopping cart icon-->
-            <li><a href="">Search</a></li><!-- todo magnifying glass icon-->
-
-            <form action=""><input type="text">Search</form><!--there is a locationsquare at the end how do you do this-->
-        
-        </ul>
-    </nav>
-      <h1>Welcome To Our Cusine Restaurant
-        
-      </h1>
-      
-<nav>
-    <ul>
-        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>">facebook</a></li><!-- these are all symbols with foller counter, I dont have it working correctly( got link from font awesome)-->
-        <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-    </ul>
-</nav>
+    
+            <section id="social-media">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i> 252k</a></li><!-- these are all symbols with foller counter, I dont have it working correctly( got link from font awesome)-->
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> 62k</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> 55k</a></li>
+                </ul>
+            </section>
+        </section>    
     </section>
 
-    <section>
-        <span>About Us</span>
-        <h1>Discover Our Restaurant Sory</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam rerum tenetur magni velit est porro voluptate quaerat nisi doloribus nemo laborum delectus, eius repellendus pariatur reprehenderit? Assumenda, recusandae eum.</p>
+    <!-- SECTION 2: ABOUT US -->
+    <section id="about-us">
+        <section>
+            <img src="Images/brooke-lark.jpg" alt="">
+        </section>
+        <section>
+            <h6>About Us</h6>
+            <h2>Discover Our Restaurant Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nam rerum tenetur magni velit est porro voluptate quaerat nisi doloribus nemo laborum delectus, eius repellendus pariatur reprehenderit? Assumenda, recusandae eum.</p>
 
-        <a href="#">Discover Menu</a><!--also has an arrow not sure how to do this with it all in a button-->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, illum voluptate. Animi, autem minus. Quisquam, perspiciatis nobis magnam unde, ad tenetur optio natus veritatis beatae veniam molestias vel similique adipisci?</p>
+
+            <section id="menu-button">
+                <span>Discover Menu</span>
+                <button id="discover-menu">arrow</button><!--also has an arrow not sure how to do this with it all in a button-->
+            </section>
+        </section>
     </section>
     
     <section>
@@ -101,7 +126,7 @@
 <h2>176 W street Name, New York, NY 10014</h2>
 <h2><a href="#">Email:info@yoursite.com</h2></a><!--appears as a link-->
 <h2><a href="#">Telephone:+1(800)1234566</h2></a><!--appears as a link-->
-
+<footer>
 <h1>Subscribe Newletter</h1>
 <form action=""><input type ="email"></form>
  </section>
@@ -117,6 +142,7 @@
     </ul>
 </nav>
  </section>
+</footer>
     
     
 </body>
