@@ -101,6 +101,7 @@ nav form input{
    background-size:cover;
    width: 100%;
    height: 600px;
+   
 
    /*border: 1px solid red;
    -webkit-transform: rotate(720deg);
@@ -115,10 +116,11 @@ nav form input{
 }
 
 /*ABOUT US SECTION*/
-#about-us > section{
+#about-us {
+    background:url("Images/brooke-lark.jpg");
     background-size:cover;
     width: 100%;
-    height: 100px;
+    height: 600px;
 
 }
 /*ABOUT US SECTION END*/
@@ -138,35 +140,7 @@ nav form input{
 }
 
 
-/*#berries {
-    background:url("../Images/first_bg.jpeg") no-repeat;
-    background-size:cover;
-    width: 1450px;
-    height: 600px;
-    /*border: 1px solid red;
-    -webkit-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    transform: rotate(720deg);
-    -moz-transform: scale(-1, -1);
-    -o-transform: scale(-1,-1);
-    -webkit-transform: scale(-1,-1);
-    transform: scale(-1,-1);*/
-/*}
 
-.menuImg {
-    width: 300px
-       
-}
-
-
-
-.customerImg{
-    width:150px;
-    height:150px; 
-    border-radius: 50%;
-}*/
 
 .input-icons i {
             position: absolute;
