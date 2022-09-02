@@ -80,6 +80,7 @@ nav form input{
     color: orange;
 }
 
+
 /*social media numbers to black*/
 #social-media a{
     color: black;
@@ -101,6 +102,7 @@ nav form input{
    background-size:cover;
    width: 100%;
    height: 600px;
+  
    
 
    /*border: 1px solid red;
@@ -117,14 +119,15 @@ nav form input{
 
 /*ABOUT US SECTION*/
 #about-us {
-    background:url("food-collage.jpg");
+    background:url("Images/brooke-lark-2.jpg");
     background-size:cover;
-    width: 120%;
+    width: 100%;
     height: 1500px;
-    margin-top: 5px;
+     margin-top: 5px;
     margin-bottom:  5px; 
     margin-left: 0%;
-    margin-right: 0%;
+    margin-right: 0%; 
+    padding:5%;
 }
 
 #discovermenu{
@@ -142,22 +145,113 @@ background-color: ghostwhite;
 }
 
 
+.cuisineimages{
+    display:flex;
+    width:100%;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+ 
+}
 .menuImg {
-   width: 300px
+   width: 300px;
+
       
 }
 
 .booktable{
-    text-align-last: center;
+display: flex;
+flex-direction: column;
+width:100%;
+align-items: center;
+
+
+    /* text-align-last: center; */
 
 }
 
-.mondaytotuesday{
-    margin-left: 3%;
+.hoursopen{
+display: flex;
+width:30%;
+justify-content: space-between;
 }
 
+.timeopen{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.mondaytotuesday, .fridaytosunday{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.tablebooking{
+    color:orange;
+ 
+}
+
+#phone{
+   display: flex;
+   align-items:center;
+}
+.fa-solid{
+    color:orange;
+    width:30%;
+    justify-content:center;
+    display: flex;
+flex-direction: column;
+width:100%;
+align-items: center;
+}
+
+.phonenumber{
+    color:orange;
+}
+
+.callnow{
+    display: flex;
+align-items:center;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.book{
+    width: 600px;
+    height: 600px;
+
+}
+
+#playbutton{
+ text-align: center;
+}
+
+/* .fa-solid{
+    text-align: center;
+}  didn't center over image*/
+
+.testimonials{
+    color:orange;
+    display: flex;
+    align-items:center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.customername{
+    display: flex;
+    align-items:center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
 .customerssay{
-    padding: 10% 45% 5% 45%
+    padding: 10% 35% 10% 35%;
+    align-items:center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 .customerImg{
@@ -167,10 +261,49 @@ background-color: ghostwhite;
   
 }
 
-.divicuisine{
+#stars{
+    display:flex;
+    width:100%;
+    justify-content:space-around ;
+    flex-wrap: wrap; /* why isn't this working" stars should lay in a row */
+
+}
+
+.fa-regular{
+    color:orange;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;/*tod flip circles to a row */
+}
+
+#circles{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;/*not adjusting circles as class nor id*/
+}
+
+.divicuisine1{
    text-align-last: center;
 }
 
+.divicuisine1 {
+    padding:5%;
+background-color: ghostwhite;
+width: 100%;
+
+}
+
+#lowericons{
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+     }
+
+     .line{
+        border-bottom: 2px solid #ccc;
+        display:block;
+     }
+     
 
 
 .input-icons i {
