@@ -196,7 +196,10 @@ justify-content: space-between;
    display: flex;
    align-items:center;
 }
-.fa-solid{
+.fa-phone {
+    padding: 0;
+}
+/* .fa-solid{
     color:orange;
     width:30%;
     justify-content:center;
@@ -204,7 +207,25 @@ justify-content: space-between;
 flex-direction: column;
 width:100%;
 align-items: center;
+} */
+.fa-solid {
+    color: orange;
 }
+.arrows, .fa-play {
+    font-size: 40px;
+}
+.fa-chevron-left {
+    margin-right: 6px;
+}
+.slideshowBtns {
+    height: 500px;
+    width: 600px;
+    background: url("Images/bowloffruits.png") no-repeat center/80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .phonenumber{
     color:orange;
@@ -241,18 +262,24 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .customername{
-    display: flex;
-    align-items:center;
-    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* display: flex; */
+    /* align-items:center; */
+    /* font-size: 30px; */
 
 }
-.customerssay{
-    padding: 10% 35% 10% 35%;
-    align-items:center;
-    font-size: 35px;
+.customerssay{   
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    /* padding: 10% 35% 10% 35%; */
+    /* align-items:center; */
+    /* font-size: 35px; */
     
+}
+.customerQuote { 
+    width: 60%;
+    text-align: center;
 }
 .customerImg{
    width:150px;
@@ -261,12 +288,11 @@ font-family: 'Times New Roman', Times, serif;
   
 }
 
-#stars{
+#stars, #circles{ 
     display:flex;
     width:100%;
-    justify-content:space-around ;
-    flex-wrap: wrap; /* why isn't this working" stars should lay in a row */
-
+    justify-content: center ;
+    /* flex-wrap: wrap; why isn't this working" stars should lay in a row  */
 }
 
 .fa-regular{
@@ -276,10 +302,11 @@ font-family: 'Times New Roman', Times, serif;
     justify-content: flex-start;/*tod flip circles to a row */
 }
 
-#circles{
-    display: flex; 
-    flex-direction: row;
-    justify-content: flex-start;/*not adjusting circles as class nor id*/
+#circles{ 
+    margin-bottom: 5px;
+    /* display: flex;  */
+    /* flex-direction: row; */
+    /* justify-content: flex-start;  not adjusting circles as class nor id */
 }
 
 .divicuisine1{
@@ -329,4 +356,36 @@ width: 100%;
 }
 section #h-1 {
     width: 50rem;
+}
+
+.footerCopy { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.footerinfo { 
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    /* justify-content: center;
+    columns: 4; */
+}
+
+
+/* .divicusine1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.footerContainer {
+    display: flex;
+}
+
+.contactus a{ 
+    color: orange;
+    text-decoration: none;
 }
